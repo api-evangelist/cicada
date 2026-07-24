@@ -1,7 +1,26 @@
 aid: cicada
 name: Cicada
-description: Cicada is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cicada Securities, LLC is a financial technology company revolutionizing
+  the bond markets in Emerging Markets. It operates an Alternative Trading System (ATS)
+  focused on local-currency-denominated government bonds in Mexico (M Bonos, UDI Bonos,
+  and Cetes), enhancing liquidity and facilitating all-to-all access in an anonymous
+  trading environment through central limit orderbook and request-for-quote protocols.
+  Cicada Securities, LLC is an SEC-registered broker-dealer and FINRA member, and Cicada
+  SEF, LLC is an applicant for swap execution facility registration with the CFTC.
+  The company offers a trading platform, live pricing data, and a programmatic API
+  for direct access to LatAm local-currency rates market liquidity, backed by 500 Global.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cicada.io/favicon_32.png
 url: https://raw.githubusercontent.com/api-evangelist/cicada/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Trading
+- Bonds
+- Fixed Income
+- Capital Markets
+- Emerging Markets
+- Mexico
+- Broker-Dealer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cicada-domain-security.yml
 - type: Website
   url: https://cicada.io
+- type: Documentation
+  url: https://cicada.io/documentation/api
+- type: APIReference
+  url: https://cicada.io/products/api
+- type: Login
+  url: https://trade.cicada.io/
+- type: Support
+  url: mailto:hello@cicada.io
+- type: TermsOfService
+  url: https://cicada.io/documentation/platform-terms-of-use
+- type: PrivacyPolicy
+  url: https://cicada.io/documentation/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hellocicada/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

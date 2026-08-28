@@ -9,6 +9,17 @@ description: Cicada Securities, LLC is a financial technology company revolution
   SEF, LLC is an applicant for swap execution facility registration with the CFTC.
   The company offers a trading platform, live pricing data, and a programmatic API
   for direct access to LatAm local-currency rates market liquidity, backed by 500 Global.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
